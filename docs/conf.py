@@ -53,7 +53,7 @@ master_doc = "index"
 
 # General information about the project.
 project = "pyrlp"
-copyright = u'2015, jnnk'
+copyright = "2019-2025, The Ethereum Foundation"
 
 __version__ = setup_version
 # The version info for the project you're documenting, acts as replacement for
@@ -247,7 +247,7 @@ man_pages = [
         "index",
         "rlp",
         "pyrlp Documentation",
-        [u"jnnk"],
+        ["jnnk"],
         1,
     )
 ]
