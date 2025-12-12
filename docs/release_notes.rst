@@ -3,6 +3,27 @@ Release Notes
 
 .. towncrier release notes start
 
+pyrlp v5.0.0-beta.1 (2025-12-12)
+--------------------------------
+
+Breaking Changes
+~~~~~~~~~~~~~~~~
+
+- Drop support for Python 3.8 and 3.9 (`#157 <https://github.com/ethereum/pyrlp/issues/157>`__)
+
+
+Features
+~~~~~~~~
+
+- Add support for Python 3.14. Note the Rust backend only works for Python 3.10-3.12 (`#157 <https://github.com/ethereum/pyrlp/issues/157>`__)
+
+
+Miscellaneous Changes
+~~~~~~~~~~~~~~~~~~~~~
+
+- `#153 <https://github.com/ethereum/pyrlp/issues/153>`__
+
+
 pyrlp v4.1.0 (2025-02-04)
 -------------------------
 
