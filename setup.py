@@ -39,7 +39,7 @@ with open("./README.md") as readme:
 setup(
     name="rlp",
     # *IMPORTANT*: Don't manually change the version here. See Contributing docs for the release process.
-    version="4.1.0",
+    version="5.0.0-beta.1",
     description="""rlp: A package for Recursive Length Prefix encoding and decoding""",
     long_description=long_description,
     long_description_content_type="text/markdown",
