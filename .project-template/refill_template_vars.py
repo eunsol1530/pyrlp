@@ -4,7 +4,7 @@ import os
 import sys
 from pathlib import Path
 import subprocess
-
+import shlex  # Import shlex for quoting
 
 def main():
     template_dir = Path(os.path.dirname(sys.argv[0]))
@@ -14,8 +14,9 @@ def main():
     with open(template_vars_file, "r") as input_file:
         content_lines = input_file.readlines()
 
+    # Use shlex.quote() to safely handle the script path
     process = subprocess.Popen(
-        [sys.executable, str(fill_template_vars_script)],
+        [sys.executable, shlex.quote(str(fill_template_vars_script))],
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
